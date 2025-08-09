@@ -4,21 +4,6 @@ from colorama import Fore, Style, init
 
 # Ativar o Colorama no Windows
 init(autoreset=True)
-'''
-print(Fore.RED + "Este texto é vermelho")
-print(Fore.BLUE + "Este texto é azul")
-print(Fore.GREEN + "Este texto é verde")
-
-# Pode combinar com estilos
-print(Fore.RED + Style.BRIGHT + "Vermelho brilhante")
-'''
-
-'''
-print(f'Papel com Papel', Fore.BLUE + 'EMPATE!')
-
-'''
-
-
 
 opcoes = 'Pedra' , 'Papel' , 'Tesoura'
 
@@ -74,4 +59,5 @@ elif jogador == 2:#computador jogou tesoura
 
     else:
         print(Fore.BLACK + Style.BRIGHT + 'Algo deu errado')
+
 
