@@ -1,1 +1,1 @@
-# Jogo de JoKenPo em Python.
+# Alguns jogos em Python
