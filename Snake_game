@@ -1,0 +1,42 @@
+import pygame, sys
+import time
+
+pygame.init()
+screen = pygame.display.set_mode((500,500))
+clock = pygame.time.Clock()
+test_surface = pygame.Surface((200, 250))
+test_surface.fill((70,50,255)) 
+
+
+while True:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+
+    screen.fill ((70,255,50))
+    screen.blit(test_surface, (200 , 250))
+    pygame.display.update() 
+    clock.tick(60)
+
+
+ 
+
+
+
+
+
+class Snake:
+    pass
+ 
+class comida:
+    pass
+
+def game_over():
+    pass
+
+def colisao():
+    pass
+
+def direcao():
+    passd
